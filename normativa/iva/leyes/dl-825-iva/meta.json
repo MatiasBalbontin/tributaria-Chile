@@ -1,0 +1,41 @@
+{
+  "id": "dl-825-iva",
+  "nombre": "Decreto Ley N°825 - Ley sobre Impuesto a las Ventas y Servicios (IVA)",
+  "fuente": "Diario Oficial",
+  "fecha_descarga": "2026-09-01",
+  "url_oficial": "https://www.bcn.cl",
+  "vigencia": "1974 (con múltiples modificaciones)",
+  "ultima_modificacion": "2024",
+  "tipo": "decreto-ley",
+  "tributos": ["iva"],
+  "articulos_clave": [
+    {
+      "numero": "1",
+      "titulo": "Definición de IVA",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "8",
+      "titulo": "Base Imponible",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "18",
+      "titulo": "Tasa de IVA",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "24",
+      "titulo": "Crédito Fiscal",
+      "relevancia": "alta"
+    }
+  ],
+  "cambios_recientes": [
+    {
+      "year": 2024,
+      "descripcion": "Nuevas normas sobre IVA servicios digitales"
+    }
+  ],
+  "versión_documento": "1.0",
+  "estado": "vigente"
+}

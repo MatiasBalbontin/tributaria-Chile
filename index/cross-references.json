@@ -15,10 +15,57 @@
     "nombre": "Pagos Provisionales Mensuales (PPM)",
     "descripcion": "Obligación de efectuar pagos provisionales de impuesto a la renta",
     "relacionado-con": [
-      "circular-sii-ppm-2024"
+      "circular-sii-ppm-2024",
+      "articulo-52-codigo-tributario"
     ],
     "tributos": ["impuesto-renta", "cumplimiento"],
     "path": "normativa/impuesto-renta/leyes/ley-17063-estatuto-tributario/vigente.md#articulo-84",
     "fuente": "Ley N°17.063"
+  },
+  "articulo-52-codigo-tributario": {
+    "nombre": "Facultad de Fiscalización SII",
+    "descripcion": "Potestad del SII para fiscalizar a contribuyentes",
+    "relacionado-con": [
+      "articulo-1-lir",
+      "articulo-84-lir",
+      "articulo-1-dl-825"
+    ],
+    "tributos": ["cumplimiento", "procedimiento-tributario"],
+    "path": "normativa/cumplimiento/leyes/codigo-tributario-ley-18038/vigente.md#articulo-52",
+    "fuente": "Ley N°18.038"
+  },
+  "articulo-1-dl-825": {
+    "nombre": "Definición de IVA",
+    "descripcion": "Hecho generador del impuesto a ventas y servicios",
+    "relacionado-con": [
+      "articulo-8-dl-825",
+      "articulo-18-dl-825",
+      "articulo-24-dl-825"
+    ],
+    "tributos": ["iva"],
+    "path": "normativa/iva/leyes/dl-825-iva/vigente.md#articulo-1",
+    "fuente": "DL N°825"
+  },
+  "articulo-24-dl-825": {
+    "nombre": "Crédito Fiscal",
+    "descripcion": "Derecho a deducir IVA pagado en compras de insumos",
+    "relacionado-con": [
+      "articulo-1-dl-825",
+      "articulo-8-dl-825"
+    ],
+    "tributos": ["iva", "deducciones"],
+    "path": "normativa/iva/leyes/dl-825-iva/vigente.md#articulo-24",
+    "fuente": "DL N°825"
+  },
+  "articulo-86-leyes-18045-18046": {
+    "nombre": "Régimen Tributario SA",
+    "descripcion": "Tratamiento tributario diferenciado para SA abierta y cerrada",
+    "relacionado-con": [
+      "articulo-1-lir",
+      "articulo-17-lir"
+    ],
+    "tributos": ["impuesto-renta", "cumplimiento"],
+    "path": "normativa/cumplimiento/leyes/leyes-18045-18046-sociedades/vigente.md#articulo-86",
+    "fuente": "Leyes N°18.045-18.046"
   }
 }

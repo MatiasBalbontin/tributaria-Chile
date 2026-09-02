@@ -1,0 +1,41 @@
+{
+  "id": "leyes-18045-18046",
+  "nombre": "Leyes N°18.045 y N°18.046 - Sociedades Anónimas y Valores",
+  "fuente": "Diario Oficial",
+  "fecha_descarga": "2026-09-01",
+  "url_oficial": "https://www.bcn.cl",
+  "vigencia": "1981-1982 (con múltiples modificaciones)",
+  "ultima_modificacion": "2024",
+  "tipo": "ley",
+  "tributos": ["impuesto-renta", "cumplimiento", "gobierno-corporativo"],
+  "articulos_clave": [
+    {
+      "numero": "3",
+      "titulo": "Definición SA Abierta",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "25",
+      "titulo": "Obligaciones de Información",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "30",
+      "titulo": "Auditoría Externa",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "86",
+      "titulo": "Régimen Tributario",
+      "relevancia": "alta"
+    }
+  ],
+  "cambios_recientes": [
+    {
+      "year": 2024,
+      "descripcion": "Actualización gobierno corporativo y transparencia"
+    }
+  ],
+  "versión_documento": "1.0",
+  "estado": "vigente"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "codigo-tributario-18038",
+  "nombre": "Ley N°18.038 - Código Tributario",
+  "fuente": "Diario Oficial",
+  "fecha_descarga": "2026-09-01",
+  "url_oficial": "https://www.bcn.cl",
+  "vigencia": "1982 (con múltiples modificaciones)",
+  "ultima_modificacion": "2024",
+  "tipo": "ley",
+  "tributos": ["cumplimiento", "procedimiento-tributario"],
+  "articulos_clave": [
+    {
+      "numero": "1",
+      "titulo": "Definición de Impuesto",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "8",
+      "titulo": "Obligación Tributaria",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "52",
+      "titulo": "Fiscalización SII",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "97",
+      "titulo": "Procedimiento de Reclamación",
+      "relevancia": "alta"
+    }
+  ],
+  "cambios_recientes": [
+    {
+      "year": 2024,
+      "descripcion": "Actualización procedimientos de fiscalización"
+    }
+  ],
+  "versión_documento": "1.0",
+  "estado": "vigente"
+}

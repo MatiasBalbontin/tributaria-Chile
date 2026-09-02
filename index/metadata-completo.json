@@ -1,24 +1,69 @@
 {
   "version": "1.0",
   "fecha_generacion": "2026-09-01",
-  "total_documentos": 0,
-  "documentos": [],
+  "total_documentos": 4,
+  "documentos": [
+    {
+      "id": "ley-17063",
+      "nombre": "Ley N°17.063 - Estatuto Tributario",
+      "tributo": "impuesto-renta",
+      "tipo": "ley",
+      "año_vigencia": 1980,
+      "path": "normativa/impuesto-renta/leyes/ley-17063-estatuto-tributario/"
+    },
+    {
+      "id": "codigo-tributario-18038",
+      "nombre": "Ley N°18.038 - Código Tributario",
+      "tributo": "cumplimiento",
+      "tipo": "ley",
+      "año_vigencia": 1982,
+      "path": "normativa/cumplimiento/leyes/codigo-tributario-ley-18038/"
+    },
+    {
+      "id": "dl-825-iva",
+      "nombre": "DL N°825 - IVA",
+      "tributo": "iva",
+      "tipo": "decreto-ley",
+      "año_vigencia": 1974,
+      "path": "normativa/iva/leyes/dl-825-iva/"
+    },
+    {
+      "id": "leyes-18045-18046",
+      "nombre": "Leyes N°18.045-18.046 - Sociedades",
+      "tributo": "cumplimiento",
+      "tipo": "ley",
+      "año_vigencia": 1981,
+      "path": "normativa/cumplimiento/leyes/leyes-18045-18046-sociedades/"
+    }
+  ],
   "estadisticas": {
     "por_tributo": {
-      "impuesto-renta": 0,
+      "impuesto-renta": 2,
       "deducciones-beneficios": 0,
-      "iva": 0,
+      "iva": 1,
       "impuestos-especificos": 0,
-      "cumplimiento": 0,
+      "cumplimiento": 2,
       "normativa-laboral": 0
     },
     "por_tipo": {
-      "leyes": 0,
+      "leyes": 3,
+      "decreto-ley": 1,
       "circulares": 0,
       "sentencias": 0,
       "doctrina": 0
     },
-    "por_año": {}
+    "por_año": {
+      "1974": 1,
+      "1980": 1,
+      "1981": 1,
+      "1982": 1
+    }
   },
-  "proximas_vigencias": []
+  "proximas_vigencias": [
+    {
+      "año": 2026,
+      "descripcion": "Reforma tributaria beneficios PYME",
+      "estado": "En preparación"
+    }
+  ]
 }

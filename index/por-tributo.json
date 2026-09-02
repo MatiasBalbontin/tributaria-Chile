@@ -11,11 +11,49 @@
       "tributos": ["impuesto-renta", "deducciones"],
       "path": "normativa/impuesto-renta/leyes/ley-17063-estatuto-tributario/vigente.md",
       "url_oficial": "https://www.sii.cl"
+    },
+    {
+      "id": "leyes-18045-18046",
+      "nombre": "Leyes N°18.045 y N°18.046 - Sociedades Anónimas",
+      "descripcion": "Régimen de sociedades anónimas y mercado de valores",
+      "fuente": "Diario Oficial",
+      "vigencia": "1981-1982 (múltiples modificaciones)",
+      "fecha_ultima_actualizacion": "2024-09-01",
+      "articulos": ["3", "25", "30", "86"],
+      "tributos": ["impuesto-renta", "cumplimiento"],
+      "path": "normativa/cumplimiento/leyes/leyes-18045-18046-sociedades/vigente.md",
+      "url_oficial": "https://www.bcn.cl"
     }
   ],
   "deducciones-beneficios": [],
-  "iva": [],
+  "iva": [
+    {
+      "id": "dl-825-iva",
+      "nombre": "Decreto Ley N°825 - Impuesto a Ventas y Servicios (IVA)",
+      "descripcion": "Impuesto indirecto que grava valor agregado en ventas y servicios",
+      "fuente": "Diario Oficial",
+      "vigencia": "1974 (múltiples modificaciones)",
+      "fecha_ultima_actualizacion": "2024-09-01",
+      "articulos": ["1", "8", "18", "24"],
+      "tributos": ["iva"],
+      "path": "normativa/iva/leyes/dl-825-iva/vigente.md",
+      "url_oficial": "https://www.bcn.cl"
+    }
+  ],
   "impuestos-especificos": [],
-  "cumplimiento": [],
+  "cumplimiento": [
+    {
+      "id": "codigo-tributario-18038",
+      "nombre": "Ley N°18.038 - Código Tributario",
+      "descripcion": "Normas procedimentales y de administración tributaria",
+      "fuente": "Diario Oficial",
+      "vigencia": "1982 (múltiples modificaciones)",
+      "fecha_ultima_actualizacion": "2024-09-01",
+      "articulos": ["1", "8", "52", "97"],
+      "tributos": ["cumplimiento", "procedimiento-tributario"],
+      "path": "normativa/cumplimiento/leyes/codigo-tributario-ley-18038/vigente.md",
+      "url_oficial": "https://www.bcn.cl"
+    }
+  ],
   "normativa-laboral": []
 }
