@@ -1,0 +1,41 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporales
+*.tmp
+*.bak
+*.log
+.env
+
+# Node (si se usa para scripting)
+node_modules/
+npm-debug.log
+
+# OS
+.AppleDouble
+.LSOverride
+
+# Archivos del usuario (local)
+.claude.json.backup
