@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "fecha_generacion": "2026-09-01",
+  "total_documentos": 0,
+  "documentos": [],
+  "estadisticas": {
+    "por_tributo": {
+      "impuesto-renta": 0,
+      "deducciones-beneficios": 0,
+      "iva": 0,
+      "impuestos-especificos": 0,
+      "cumplimiento": 0,
+      "normativa-laboral": 0
+    },
+    "por_tipo": {
+      "leyes": 0,
+      "circulares": 0,
+      "sentencias": 0,
+      "doctrina": 0
+    },
+    "por_año": {}
+  },
+  "proximas_vigencias": []
+}

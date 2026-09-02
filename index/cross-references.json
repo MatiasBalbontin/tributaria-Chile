@@ -1,0 +1,24 @@
+{
+  "articulo-17-lir": {
+    "nombre": "Renta Líquida Imponible",
+    "descripcion": "Define la renta liquida imponible en el régimen de renta efectiva",
+    "relacionado-con": [
+      "articulo-1-lir",
+      "articulo-21-lir",
+      "circular-sii-2024"
+    ],
+    "tributos": ["impuesto-renta", "deducciones"],
+    "path": "normativa/impuesto-renta/leyes/ley-17063-estatuto-tributario/vigente.md#articulo-17",
+    "fuente": "Ley N°17.063"
+  },
+  "articulo-84-lir": {
+    "nombre": "Pagos Provisionales Mensuales (PPM)",
+    "descripcion": "Obligación de efectuar pagos provisionales de impuesto a la renta",
+    "relacionado-con": [
+      "circular-sii-ppm-2024"
+    ],
+    "tributos": ["impuesto-renta", "cumplimiento"],
+    "path": "normativa/impuesto-renta/leyes/ley-17063-estatuto-tributario/vigente.md#articulo-84",
+    "fuente": "Ley N°17.063"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ley-17063",
+  "nombre": "Ley N°17.063 - Estatuto Tributario",
+  "fuente": "SII",
+  "fecha_descarga": "2026-09-01",
+  "url_oficial": "https://www.sii.cl",
+  "vigencia": "1980 (con múltiples modificaciones)",
+  "ultima_modificacion": "2024",
+  "tipo": "ley",
+  "tributos": ["impuesto-renta", "deducciones"],
+  "articulos_clave": [
+    {
+      "numero": "1",
+      "titulo": "Concepto de Renta",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "17",
+      "titulo": "Renta Líquida Imponible",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "21",
+      "titulo": "Rentas Exentas",
+      "relevancia": "alta"
+    },
+    {
+      "numero": "32",
+      "titulo": "Horas Extra",
+      "relevancia": "media"
+    },
+    {
+      "numero": "84",
+      "titulo": "Pagos Provisionales Mensuales (PPM)",
+      "relevancia": "alta"
+    }
+  ],
+  "cambios_recientes": [
+    {
+      "year": 2024,
+      "descripcion": "Actualización en cálculo de deducciones"
+    },
+    {
+      "year": 2023,
+      "descripcion": "Nuevas normas sobre beneficios tributarios"
+    }
+  ],
+  "versión_documento": "1.0",
+  "estado": "vigente"
+}

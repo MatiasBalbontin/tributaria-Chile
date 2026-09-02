@@ -1,0 +1,77 @@
+# Configuración - Script de Monitoreo Normativa Tributaria
+
+# Fuentes a monitorear
+sources:
+  SII:
+    url: "https://www.sii.cl"
+    scrape_paths:
+      - "normativas-tributarias"
+      - "circulares"
+      - "resoluciones"
+    enabled: true
+
+  BCN:
+    url: "https://www.bcn.cl"
+    scrape_paths:
+      - "leyes-vigentes"
+      - "proyectos-ley"
+    enabled: true
+
+  Leyes_cl:
+    url: "https://leyes.cl"
+    scrape_paths:
+      - "leyes-tributarias"
+    enabled: true
+
+# Configuración de detección de cambios
+detection:
+  keywords_nuevas_normativas:
+    - "Ley N°"
+    - "Circular"
+    - "Sentencia"
+    - "Decreto"
+    - "Resolución"
+
+  palabras_clave_tributarias:
+    - "renta"
+    - "impuesto"
+    - "IVA"
+    - "deducciones"
+    - "beneficios"
+    - "tributo"
+    - "fiscalización"
+
+  ignorar_patrones:
+    - "test"
+    - "draft"
+    - "propuesta"
+
+# Configuración de output
+output:
+  email_destinatario: "matiasrbalbontin@gmail.com"
+  email_asunto: "NORMA-CHILE: Cambios detectados (Commit #{commit_code})"
+
+  commit_prefix: "monitoring"
+  commit_template: "Cambios detectados - Commit #{code}"
+
+  resumen_archivo: "monitoring/vigencias-{year}.md"
+  changelog_archivo: "monitoring/changelog-commits.log"
+
+# Planificación
+schedule:
+  dias: ["lunes"]
+  hora: "09:00"
+  zona_horaria: "America/Santiago"
+
+# Rutas locales
+paths:
+  sources_dir: "_sources"
+  normativa_dir: "normativa"
+  monitoring_dir: "monitoring"
+  index_dir: "index"
+
+# Opciones avanzadas
+advanced:
+  timeout_segundos: 30
+  reintentos: 3
+  log_verboso: true

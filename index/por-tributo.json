@@ -1,0 +1,21 @@
+{
+  "impuesto-renta": [
+    {
+      "id": "ley-17063",
+      "nombre": "Estatuto Tributario",
+      "descripcion": "Ley que contiene normas tributarias de alcance general",
+      "fuente": "SII",
+      "vigencia": "1980+ (múltiples modificaciones)",
+      "fecha_ultima_actualizacion": "2024-09-01",
+      "articulos": ["1", "2", "4", "17", "21", "32", "84"],
+      "tributos": ["impuesto-renta", "deducciones"],
+      "path": "normativa/impuesto-renta/leyes/ley-17063-estatuto-tributario/vigente.md",
+      "url_oficial": "https://www.sii.cl"
+    }
+  ],
+  "deducciones-beneficios": [],
+  "iva": [],
+  "impuestos-especificos": [],
+  "cumplimiento": [],
+  "normativa-laboral": []
+}
