@@ -1,100 +1,114 @@
-# NORMA-CHILE | Repositorio de Normativa Tributaria Chilena
+# Tributaria-Chile | Base de Conocimiento Normativa Tributaria Chilena
 
-**Base de conocimiento centralizada** de normativa tributaria chilena (2021-2026 + forward-looking) para asesoría, cumplimiento y análisis regulatorio.
+**Repositorio centralizado de normativa tributaria chilena** para asesoría tributaria, cumplimiento normativo y análisis regulatorio empresarial.
 
-Integrado con skill `tributario-marco` para análisis de marcos normativos empresariales.
-
----
-
-## Estructura
-
-- **`normativa/`** — Documentos parseados organizados por tributo (impuesto-renta, deducciones, IVA, etc.)
-- **`_sources/`** — PDFs originals descargados de SII/BCN/Leyes.cl (sin procesar)
-- **`index/`** — Índices JSON queryables para agente IA
-- **`monitoring/`** — Tracking de cambios semanales
-- **`scripts/`** — Script Python de monitoreo automático
-- **`docs/`** — Guías de uso
+Integrado con skill `tributario-marco` para análisis de marcos normativos de empresas reales.
 
 ---
 
-## Fuentes Oficiales
+## 📋 Contenido
 
-1. **SII** (Servicio de Impuestos Internos)
-2. **BCN** (Biblioteca del Congreso Nacional)
-3. **Leyes.cl**
-4. **Sentencias/Circulares SII**
-5. **Doctrina oficial** (SII/BCN)
+### Leyes Fundamentales (2021-2026 + Forward-looking)
+- **Ley N°17.063** - Estatuto Tributario (Impuesto a la Renta)
+- **Ley N°18.038** - Código Tributario (Procedimientos)
+- **DL N°825** - IVA (Impuesto a Ventas y Servicios)
+- **Leyes N°18.045-18.046** - Sociedades Anónimas
 
----
-
-## Monitoreo Automático
-
-**Tarea Cowork:** Lunes 9 AM (semanal)
-- Script detecta cambios en SII/BCN/Leyes.cl
-- Genera commit con código
-- Envía email con resumen
-
-**Tu acción:** Pides en Claude "push commit 003" → ejecuta automáticamente
+### Jurisprudencia & Tratados (En construcción)
+- Jurisprudencia Administrativa (Oficios SII, Circulares)
+- Jurisprudencia Judicial (Sentencias TTA, Corte Suprema)
+- Tratados Internacionales (CDIs, OCDE)
+- Estudios Especializados (CET U. Chile, CEPET)
+- Procedimientos Operativos (Matrices DDJJ, Formulario 22)
 
 ---
 
-## Usar NORMA-CHILE
+## 🤖 Monitoreo Automático
+
+**Tarea recurrente:** Lunes 9 AM (America/Santiago)
+- Script detecta cambios normativos en SII/BCN/Leyes.cl
+- Genera commit automático con código secuencial (001, 002, 003...)
+- Notifica cambios detectados
+- Usuario valida y solicita push en Claude
+
+**Próximas vigencias (2026-2027):** Forward-looking monitoring incluido
+
+---
+
+## 📖 Uso
+
+### Para Asesoría Tributaria
+1. Consultar normativa vigente por tributo
+2. Revisar jurisprudencia relacionada
+3. Verificar procedimientos operativos
 
 ### Para Agentes IA (skill tributario-marco)
+1. Acceder índices JSON (`index/por-tributo.json`)
+2. Buscar normativas aplicables por tributo
+3. Integrar en análisis profesional
+4. Citar fuentes con referencias precisas
 
-```python
-import json
+---
 
-# Cargar índice por tributo
-with open('index/por-tributo.json', 'r', encoding='utf-8') as f:
-    tributos = json.load(f)
+## 📁 Estructura
 
-# Buscar leyes sobre renta
-renta_docs = tributos['impuesto-renta']
-
-# Acceder a documentos
-for doc in renta_docs:
-    print(f"{doc['nombre']} - {doc['fuente']}")
-    print(f"Path: {doc['path']}")
 ```
-
-### Cross-references
-
-```python
-# Encontrar artículos relacionados
-with open('index/cross-references.json', 'r', encoding='utf-8') as f:
-    referencias = json.load(f)
-
-art_17 = referencias['articulo-17-lir']
-print(f"Artículo 17 está relacionado con: {art_17['relacionado-con']}")
+tributaria-Chile/
+├── README.md (este archivo)
+├── LICENSE (CC BY-NC-SA)
+├── normativa/
+│   ├── impuesto-renta/
+│   ├── iva/
+│   ├── cumplimiento/
+│   ├── jurisprudencia-administrativa/
+│   ├── jurisprudencia-judicial/
+│   ├── tratados-internacionales/
+│   ├── estudios-especializados/
+│   └── procedimientos-operativos/
+├── index/
+│   ├── por-tributo.json
+│   ├── cross-references.json
+│   └── metadata-completo.json
+├── monitoring/
+│   ├── vigencias-2024.md
+│   ├── vigencias-2025.md
+│   └── vigencias-proximas-2026-2027.md
+└── scripts/
+    └── monitor-normativa.py
 ```
 
 ---
 
-## Metadata de Documentos
+## ⚖️ Licencia
 
-Cada documento Markdown incluye:
+**Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)**
 
-```markdown
-# Ley N°17.063 - Estatuto Tributario
+- ✅ **Permitido:** Uso educativo, investigación, asesoría no comercial
+- ✅ **Permitido:** Compartir con atribución
+- ✅ **Permitido:** Modificar y adaptar bajo misma licencia
+- ❌ **No permitido:** Usos comerciales (venta, consultorías pagadas, etc.)
 
-**Fuente:** SII (oficial)
-**Vigencia:** 1980 (múltiples modificaciones)
-**Última actualización:** 2024
-**URL Original:** https://...
-
-## Artículo X
-[contenido]
-
-**Cambios recientes (2024):** [refs]
-```
+Ver archivo `LICENSE` para términos completos.
 
 ---
 
-## Próximas Acciones
+## 🔄 Contribuciones & Actualizaciones
 
-- [ ] Descargar leyes 2021-2026 de SII/BCN
-- [ ] Parsear a Markdown
-- [ ] Generar índices JSON
-- [ ] Configurar Cowork tarea
-- [ ] Validar con skill tributario-marco
+Cambios detectados automáticamente cada lunes. Para contribuciones manuales:
+1. Fork del repositorio
+2. Branch para cambios
+3. Pull request con descripción
+
+---
+
+## 📧 Contacto & Feedback
+
+Usuario: MatiasBalbontin  
+Email: matiasrbalbontin@gmail.com
+
+---
+
+**Última actualización:** 2026-09-02  
+**Estado:** Base inicial (4 leyes). Estructura lista para expansión.
+
+*Base de conocimiento tributario en construcción continua.*
