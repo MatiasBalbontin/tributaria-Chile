@@ -55,7 +55,7 @@ Integrado con skill `tributario-marco` para análisis de marcos normativos de em
 ```
 tributaria-Chile/
 ├── README.md (este archivo)
-├── LICENSE (CC BY-NC-SA)
+├── LICENSE (MIT)
 ├── normativa/
 │   ├── impuesto-renta/
 │   ├── iva/
@@ -81,12 +81,11 @@ tributaria-Chile/
 
 ## ⚖️ Licencia
 
-**Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)**
+**MIT License**
 
-- ✅ **Permitido:** Uso educativo, investigación, asesoría no comercial
-- ✅ **Permitido:** Compartir con atribución
-- ✅ **Permitido:** Modificar y adaptar bajo misma licencia
-- ❌ **No permitido:** Usos comerciales (venta, consultorías pagadas, etc.)
+- ✅ **Permitido:** Uso comercial y no comercial
+- ✅ **Permitido:** Modificación y distribución
+- ✅ **Permitido:** Uso privado
 
 Ver archivo `LICENSE` para términos completos.
 
