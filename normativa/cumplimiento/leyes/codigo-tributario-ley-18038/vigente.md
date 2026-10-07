@@ -13,6 +13,24 @@ Código que establece normas procedimentales y de administración tributaria. De
 
 ---
 
+## Contexto Histórico (Auditoría 2026-10-07)
+
+**Evolución de Códigos Tributarios en Chile:**
+
+| Período | Norma | Descripción | Estado |
+|---------|-------|-------------|--------|
+| 1974-1982 | **DL N°830** | Código Tributario original de la reforma tributaria de 1974 | Histórico/Derogado |
+| 1982-2024 | **Ley N°18.038** | Nuevo Código Tributario que reemplaza DL N°830 | **Vigente** |
+
+**Transición Normativa:**
+- **1974:** DL N°830 establece primer Código Tributario sistemático post-reforma
+- **1982:** Ley N°18.038 introduce nuevo sistema procedimentalístico, reemplazando DL N°830
+- **2024:** Vigente con múltiples modificaciones (leyes, circulares SII)
+
+**Nota:** Para referencias históricas a disposiciones del DL N°830 (pre-1982), consultar archivo histórico.
+
+---
+
 ## Artículos Clave
 
 ### Artículo 1 - Definición de Impuesto

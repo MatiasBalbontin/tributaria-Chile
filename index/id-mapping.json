@@ -1,0 +1,48 @@
+{
+  "descripcion": "Mapeo de IDs antiguos (secuenciales) a nuevos (basados en norma_articulo). Usado para mantener referencias históricas.",
+  "fecha_creacion": "2026-10-07",
+  "mapeos": {
+    "001-ley-17063": {
+      "id_antiguo": "001",
+      "nombre_antiguo": "ley-17063",
+      "id_nuevo": "LIR_vigente",
+      "norma": "DL N°824 (pendiente verificación)",
+      "notas": "Auditoría pendiente: verificar si 17.063 es histórica o vigente"
+    },
+    "002-dl-825-iva": {
+      "id_antiguo": "002",
+      "nombre_antiguo": "dl-825-iva",
+      "id_nuevo": "IVA_vigente",
+      "norma": "DL N°825",
+      "notas": "Verificar como correcto"
+    },
+    "003-codigo-tributario-18038": {
+      "id_antiguo": "003",
+      "nombre_antiguo": "codigo-tributario-ley-18038",
+      "id_nuevo": "CT_vigente",
+      "norma": "DL N°830 (pendiente verificación)",
+      "notas": "Auditoría pendiente: verificar si 18.038 es histórica o vigente"
+    },
+    "004-leyes-18045-18046": {
+      "id_antiguo": "004",
+      "nombre_antiguo": "leyes-18045-18046-sociedades",
+      "id_nuevo": "LSA_vigente",
+      "norma": "Ley N°18.046 (pendiente verificación: separarar de Ley General de Bancos 18.045)",
+      "notas": "Auditoría pendiente: verificar si 18.045 es Ley de Bancos y si 18.046 es LSA vigente"
+    }
+  },
+  "convenciones_nuevas": {
+    "formato": "{NORMA}_{ARTICULO}",
+    "ejemplos": [
+      "LIR_art1",
+      "LIR_art31-4",
+      "CT_art4ter",
+      "CT_art55",
+      "IVA_art1",
+      "IVA_art11",
+      "LSA_art3",
+      "LIHAD_art1"
+    ]
+  },
+  "estado": "en_construccion_T3"
+}

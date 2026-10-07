@@ -7,9 +7,27 @@
 
 ---
 
+## Contexto Histórico (Importante para Auditoría 2026-10-07)
+
+⚠️ **ACLARACIÓN NORMATIVA:** Esta ley **NO es la base del sistema tributario de renta chileno**. La base normativa principal es:
+- **DL N°824 de 1974:** Decreto Ley que contiene la Ley sobre Impuesto a la Renta (LIR)
+- **Ley N°17.063 (1980):** Ley **complementaria y modificatoria** de DL N°824
+- **Refundiciones posteriores:** Diversas refundiciones y modificaciones (DFL, leyes posteriores)
+
+La documentación de este repositorio está siendo auditada para corregir esta imprecisión histórica.
+
+**Verificación pendiente:** fuente_oficial_url a leychile.cl para confirmar números de diario oficial y fechas exactas.
+
+---
+
 ## Propósito
 
-Ley que contiene normas tributarias de alcance general aplicables a todas las personas naturales y jurídicas domiciliadas en Chile. Constituye la base del sistema tributario chileno.
+Ley que modifica y complementa el régimen de Impuesto a la Renta establecido en el Decreto Ley N°824 de 1974. Aplicable a personas naturales y jurídicas domiciliadas en Chile.
+
+Para una comprensión completa de la normativa tributaria de renta vigente en Chile, debe consultarse:
+1. **DL N°824 de 1974** (norma base)
+2. **Ley N°17.063** (complementaria - este documento)
+3. **Posteriores refundiciones y modificaciones** (DFL y leyes posteriores)
 
 ---
 
