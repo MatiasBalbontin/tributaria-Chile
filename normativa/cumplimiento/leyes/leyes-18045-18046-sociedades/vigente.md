@@ -12,6 +12,38 @@ Ley N°18.045 establece régimen de sociedades anónimas (SA). Ley N°18.046 reg
 
 ---
 
+## Aclaración Normativa: Distinción Importante (Auditoría 2026-10-07)
+
+⚠️ **CLARIFICACIÓN CRÍTICA:** Para evitar confusión conceptual, se especifica:
+
+### Ley N°18.045 — SOCIEDADES ANÓNIMAS
+- **Regula:** Constitución, funcionamiento y gobierno corporativo de Sociedades Anónimas
+- **Alcance:** TODAS las SA (abiertas y cerradas)
+- **Aplicación:** Estructura legal de la empresa como persona jurídica
+- **Ámbito:** Derecho corporativo
+
+### Ley N°18.046 — MERCADO DE VALORES
+- **Regula:** Oferta pública de valores, operaciones en bolsa, fiscalización por CMF
+- **Alcance:** SA abiertas (con valores inscritos en Registro de Valores)
+- **Aplicación:** Negociación de acciones/valores en el mercado
+- **Ámbito:** Derecho del mercado de capitales
+
+### Ley N°18.010 — GENERAL DE BANCOS (FUERA DE ALCANCE)
+- **Regula:** Constitución y operación de instituciones bancarias
+- **Alcance:** Bancos e instituciones financieras
+- **Nota:** Completamente distinta del régimen de Sociedades Anónimas
+- **Referencia:** No está incluida en este repositorio (fuera de alcance tributario específico)
+
+### Relación entre Leyes
+
+Una **Sociedad Anónima puede o no tener valores inscritos**:
+- **SA Cerrada:** Regida SOLO por Ley N°18.045 (sin aplicación de 18.046)
+- **SA Abierta:** Regida por Ley N°18.045 + Ley N°18.046 (porque tiene valores negociados)
+
+Una **institución bancaria** es estructura completamente distinta, regulada por Ley N°18.010.
+
+---
+
 ## Artículos Clave
 
 ### Artículo 3 - Definición SA Abierta

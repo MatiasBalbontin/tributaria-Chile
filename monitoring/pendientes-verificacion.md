@@ -8,10 +8,12 @@ Formato: `fecha_reporte | norma | campo | motivo | estado`
 
 ## Auditoría Inicial — 2026-10-07
 
-- **2026-10-07** | LIR | identificacion_norma | Verificar si Ley 17.063 es vigente o histórica; buscar DL N°824 + refundiciones | en_investigacion
-- **2026-10-07** | CT | identificacion_norma | Verificar si Ley 18.038 es vigente o DL N°830 + refundiciones | en_investigacion
-- **2026-10-07** | IVA | identificacion_norma | Confirmar DL N°825 vigente | en_investigacion
-- **2026-10-07** | Sociedades | identificacion_norma | Verificar si 18.045 es Ley General de Bancos y 18.046 es LSA vigente | en_investigacion
+**RESULTADOS DEL AGENTE DE INVESTIGACIÓN:**
+
+- **2026-10-07** | LIR | identificacion_norma | **HALLAZGO:** Ley 17.063 es complementaria a DL N°824 (1974), NO la base. Se requiere crear documento para DL N°824 como base y reclasificar 17.063 como complementaria | correccion_pendiente
+- **2026-10-07** | CT | identificacion_norma | **HALLAZGO:** Ley 18.038 es correcta (vigente desde 1982). Reemplazó DL N°830 (1974). Se debe agregar contexto histórico. | correccion_pendiente
+- **2026-10-07** | IVA | identificacion_norma | **HALLAZGO VERIFICADO:** DL N°825 es correcto y vigente. Status: OK | verificado
+- **2026-10-07** | Sociedades | identificacion_norma | **HALLAZGO:** Ley 18.045 es SA (correcto), Ley 18.046 es Valores (correcto). Ley de Bancos es 18.010 (fuera de alcance). Hipótesis original contenía errores. Se debe aclarar en documento | correccion_pendiente
 
 ---
 
